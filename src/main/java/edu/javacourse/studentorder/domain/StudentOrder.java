@@ -91,4 +91,19 @@ public class StudentOrder {
         }
         children.add(child);
     }
+
+    @Override
+    public String toString() {
+        return "StudentOrder{" +
+                "studentOrderID=" + studentOrderID +
+                ", studentOrderDate=" + studentOrderDate +
+                ", studentOrderStatus=" + studentOrderStatus +
+                ", marriageCertificateId='" + marriageCertificateId + '\'' +
+                ", marriageDate=" + marriageDate +
+                ", marriageOffice=" + marriageOffice +
+                ", husband=" + husband +
+                ", wife=" + wife +
+                ", children=" + children +
+                '}';
+    }
 }

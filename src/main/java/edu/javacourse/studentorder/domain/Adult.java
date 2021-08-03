@@ -71,9 +71,9 @@ public class Adult extends Person{
                 "passportSerial='" + passportSerial + '\'' +
                 ", passportNumber='" + passportNumber + '\'' +
                 ", issueDate=" + issueDate +
-                ", issueDepartment='" + passportOffice + '\'' +
-                ", university='" + university + '\'' +
+                ", passportOffice=" + passportOffice +
+                ", university=" + university +
                 ", studentID='" + studentID + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }
